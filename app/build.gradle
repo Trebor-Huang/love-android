@@ -4,14 +4,17 @@ android {
     compileSdkVersion 28
     buildToolsVersion "28.0.3"
     defaultConfig {
-        applicationId "org.love2d.android"
-        versionCode 29
-        versionName "11.3a"
+        applicationId "org.love2d.MrZ.Techmino"
+        versionCode 1
+        versionName "0.1.114"
         minSdkVersion 14
         targetSdkVersion 28
     }
     buildTypes {
         release {
+            // If snapshot, add
+            // applicationIdSuffix ".Snapshot"
+            // Or modify the project to add a build type
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
